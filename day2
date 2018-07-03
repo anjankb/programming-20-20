@@ -1,0 +1,16 @@
+def input_vertex():
+    vertex = []
+    vertex.append(float(input("enter first point: ")))
+    vertex.append(float(input("enter the second point: ")))
+    return vertex
+
+
+def input_rectangle():
+    rectangle = []
+    for i in range(3):
+        p1=input_vertex()
+        rectangle.append(p1)
+    return rectangle
+    
+x=input_rectangle()
+print(x)
